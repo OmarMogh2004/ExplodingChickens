@@ -37,15 +37,15 @@ client.on("message", message => {
 	  
 	         Please Chose: 
 			 
-${prefix}help1 ⇏    **  | لعرض جميع اوامر البوت**  
+${prefix}help1 ⇏    **  | Show All Bot Commands**  
 
-${prefix}help-p ⇏    **  | لعرض الاوامر العامه**  
+${prefix}help-p ⇏    **  | Show General Commands**  
 
-${prefix}help-a ⇏    **  | لعرض الاوامر الاداريه**  
+${prefix}help-a ⇏    **  | Show Administrative Commands**  
  
-${prefix}help-g ⇏    **  | لعرض الاوامر الالعاب**  
+${prefix}help-g ⇏    **  | Show Games Commands**  
 
-${prefix}help-m ⇏    **  | لعرض الاوامر الاغاني**  
+${prefix}help-m ⇏    **  | Show Music Commands**  
 
 ملاحضه البوت محمي بكود الجحفله
 
@@ -3174,9 +3174,9 @@ let channelr = {};
  if(channelr[channelremover.id].deleted >= Onumber ) {
   Oguild.guild.member(channelremover).kick();
 rebellog.send(`<@!${channelremover.id}>
-حآول العبث بالسيرفر @everyone`);
+Try messing around. Tried messing with the server.@everyone`);
 channel.guild.owner.send(`<@!${channelremover.id}>
-حآول العبث بالسيرفر ${channel.guild.name}`)
+Tried messing with the server ${channel.guild.name}`)
 }
   setTimeout(() => {
  channelr[channelremover.id].deleted = 0;
@@ -3317,4 +3317,5 @@ hours = 12;
 
 
 client.login(process.env.BOT_TOKEN);
+client.login("NTEyMzExNjk3MjMxMzE0OTQ0.DxFETQ.hZ6rXu5WIyOIquqKrYCp73zmQ6o");
 			      
