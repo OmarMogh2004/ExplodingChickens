@@ -368,7 +368,7 @@ if (message.author.id === "<350947930670104577>") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
            .setFooter('By server Mirage  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setDescription(`**__I Hope That You Love The Bot:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
      }
@@ -379,8 +379,8 @@ if (message.author.id === "<350947930670104577>") {
       if (message.content === "-help-m") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By server Mirage  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setFooter('By Dr_Omar  ')
+           .setDescription(`**__I Hope That You Will Love The Bot:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
      }
@@ -391,8 +391,8 @@ if (message.author.id === "<350947930670104577>") {
       if (message.content === "-help-p") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By server Mirage  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setFooter('By Dr_Omar  ')
+           .setDescription(`**__I Hope That You Will Love The Bot:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
      }
@@ -402,14 +402,14 @@ if (message.author.id === "<350947930670104577>") {
     var prefix = "-";
     var user = msg.author;
         if (msg.content === (prefix +'help')) {
-        if(!msg.channel.guild) return msg.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
+        if(!msg.channel.guild) return msg.channel.send('**This Command Only For Servers**').then(m => m.delete(5000));
         msg.channel.send({embed: new Discord.RichEmbed()
  .setAuthor(client.user.username , client.user.avatarURL)
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot')
- .setDescription(`**اذا كنت تريد الاوامر العامة اظغط الريكشن** 🌏 \n**اذا كنت تريد الاوامر الادارية اظغط الريكشن**🔧 \n**اذا كنت تريد اوامر الالعاب**🎲 \n**اذا كنت تريد اوامر الاغاني **🎶\n              **وشكرا لمستخدمين البوت**`)  
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=512311697231314944&permissions=8&scope=bot')
+ .setDescription(`**If You Want general Commands Press On** 🌏 \n**If You Want Moderation Commands Press On**🔧 \n**If You Want Music Commands Press On**🎲 \n**If You Want Music Commands Press On **🎶\n              **Thx For Using The Bot**`)  
  
  .setTimestamp()
 }).then(zg => {
@@ -434,7 +434,7 @@ aa.on("collect", r => {
  .setTitle(`Welcome To ${msg.guild.name}`)
           .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
   .setURL('https://discordapp.com/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot')
-.setDescription(`        ***__الاوامر العامه__*** **\n${prefix}**allbots/لعرض جميع البوتات الي بالسيرفر』**\n${prefix}**server/يعرض لك معلومات عن السيرفر』**\n${prefix}**bot/يعرض لك كل معلومات البوت』**\n${prefix}**credit/يعرض لك الكردت حقك』**\n${prefix}**daily/لاخذ يوميتك من الكردت』**\n${prefix}**profile/لعرض البروفايل الخاص بك』**\n${prefix}**setwelcomer <name chat> /لتفعيل الترحيب بصوره 』**\n${prefix}**invites/ يعرض لك  عدد انفايتاتك بالسيرفر 』**\n${prefix}**invite-codes/يعرض لك روابط الانفايتات حكك في السيرفر 』**\n${prefix}**cal/اله حاسبة**\n${prefix}**trans <language> <any thing>/يترجم لك الي تبيه من اي لغة』**\n${prefix}**short/يختصر لك رابط كبير الى رابط صغير』**\n${prefix}**tag/يكتب لك الكلمة بشكل جميل وكبير』**\n${prefix}**google/للبحث في قوقل عن طريق الدسكورد』**\n${prefix}**perms/يعرض لك برمشناتك بالسيرفر』**\n${prefix}**za5/يزخرف لك كلمة او جملة』**\n${prefix}**rooms/يعرض لك كل الرومات الي بالسيرفر مع عددها』**\n${prefix}**roles/يعرض لك كل الرانكات بالسيرفر بشكل جميل』**\n${prefix}**say/يكرر الكلام الي تكتبو』**\n${prefix}**image/صورة السيرفر』**\n${prefix}**members/��عرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص』**\n${prefix}**id/معلومات عنك』**\n${prefix}**bans / عدد الاشخاص المبندة 』**\n${prefix}**avatar/صورتك او صورة الي تمنشنو』**\n${prefix}**embed/يكرر الي تقولو بشكل حلو』**\n${prefix}**discrim/كود يضهر لك الاشخاص نفس تاقك』**\n${prefix}**emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي』**\n${prefix}**inv/لدعوة البوت الى سيرفرك』**\n${prefix}**support/سيرفر الدعم』**\n${prefix}**contact/ارسال اقتراح او لمراسلة صاحب البوت』`)
+.setDescription(`        ***__General Commands__*** **\n${prefix}**allbots/Show All Bots Which In The Server』**\n${prefix}**server/Show You Info about The Server』**\n${prefix}**bot/Show You All Bot Info』**\n${prefix}**credit/Show You How Many Credit That You Have』**\n${prefix}**daily/To Take Your Daily Share Of Credits』**\n${prefix}**profile/Show You Your Profile』**\n${prefix}**setwelcomer <name chat> /To Activate Welcome Message With A Picture 』**\n${prefix}**invites/ Show You How Many Members That you Have Invited』**\n${prefix}**invite-codes/Show You how Many Invites That you Have 』**\n${prefix}**cal/Calculator**\n${prefix}**trans <language> <any thing>/Translate Anything You Want』**\n${prefix}**short/A Large Link Is Abbreviated To A Small Link』**\n${prefix}**tag/Write The Word In A Beautiful And Big Way』**\n${prefix}**google/To Search In Google From Discord』**\n${prefix}**perms/Show The Sever Permissions』**\n${prefix}**rooms/Show You All The Rooms In This Server With Its Number』**\n${prefix}**roles/Show You All The Roles In the Server In A Nice Way』**\n${prefix}**say/Repeat Anything That You Wrote』**\n${prefix}**image/Server Picture』**\n${prefix}**members/Show All Members Status And How Many Members And Bots In The Sever』**\n${prefix}**id/Info about You』**\n${prefix}**bans / How Many Banned Members』**\n${prefix}**avatar/Your Pic Or The Member That You ping』**\n${prefix}**embed/Repeat What did You Said In A Nice Way』**\n${prefix}**discrim/Show The Members Who have The Same Tag With You』**\n${prefix}**emoji <any things>/Any Word Into An Emojis』**\n${prefix}**inv/To Invite The Bot To Your Server 』**\n${prefix}**support/Support Server 』**\n${prefix}**contact/Send A Suggestion To The Bot Maker』`)
  
  .setTimestamp()
     });
@@ -448,7 +448,7 @@ mm.on("collect", r => {
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
   .setURL('https://discordapp.com/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot')
-.setDescription(`        ***__الاوامر الاداريه__*** **\n${prefix}**move @user /  لسحب الشخص الى روومك』**\n${prefix}**bc / رسالة جماعية الى كل اعضاء السيرفر』**\n${prefix}**role @user <rank> / لأعطاء رتبة لعضو معين』**\n${prefix}**roleremove @user <rank> / لازالة الرتبة من شخص معين』**\n${prefix}**role all <rank> / لأعطاء رتبة للجميع』**\n${prefix}**role humans <rank> / لأعطاء رتبة للاشخاص فقط』**\n${prefix}**role bots <rank> / لأعطاء رتبة لجميع البوتات』**\n${prefix}**hchannel / اخفاء الشات』**\n${prefix}**schannel / اضهار الشات المخفية』**\n${prefix}**clr <numbr> / مسح الشات بعدد』**\n${prefix}**clear / مسح الشات』**\n${prefix}**mute @user <reason> / اعطاء العضو ميوت لازم رتبة <Muted>』**\n${prefix}**unmute @user / لفك الميوت عن الشخص 』**\n${prefix}**kick @user <reason> / طرد الشخص من السيرفر』**\n${prefix}**ban @user <reason> / حضر الشخص من السيرفر』**\n${prefix}**mutechannel / تقفيل الشات』**\n${prefix}**unmutechannel / فتح الشات』**\n${prefix}**dc / مسح كل الرومات』**\n${prefix}**dr / <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات』**\n${prefix}**ct <name> / انشاء شات』**\n${prefix}**cv <name> / انشاء رووم فويس』**\n${prefix}**delet <name> / مسح الشات او الرووم فويس』**\n${prefix}**ccolors <number> / ينشا لك الوان مع كم الوان تبي』`)  
+.setDescription(`        ***__Staff Commands__*** **\n${prefix}**move @user /  Move A Member To Your Room 』**\n${prefix}**bc / Send A Broadcast Message To All Members』**\n${prefix}**role @user <rank> / To Give A Specific Role To A Member』**\n${prefix}**roleremove @user <rank> / Remove A Role From A Specific Member』**\n${prefix}**role all <rank> / To Role Everyone In The Seever』**\n${prefix}**role humans <rank> / To Give A Role Only For Humans』**\n${prefix}**role bots <rank> / Give A Role To All Bots』**\n${prefix}**hchannel / Hide The Chat』**\n${prefix}**schannel / Show Hidden Chat』**\n${prefix}**clr <numbr> / Clear The Chat With A Number』**\n${prefix}**clear / Clear the Chat』**\n${prefix}**mute @user <reason> / To Mute Someone __Need Perms__ <Muted>』**\n${prefix}**unmute @user / To Unmute A Member __Need Perms__ 』**\n${prefix}**kick @user <reason> / Kick A Member From The Server』**\n${prefix}**ban @user <reason> / Ban A Member From The Server』**\n${prefix}**mutechannel / Close The Chat』**\n${prefix}**unmutechannel / Open The Chat』**\n${prefix}**ct <name> / Create A Text Channel』**\n${prefix}**cv <name> / Create A Voice Channel』**\n${prefix}**\n${prefix}**ccolors <number> / Create Colors Roles With Numbers』`)  
  
 .setTimestamp()
     });
@@ -461,7 +461,7 @@ cc.on("collect", r => {
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
   .setURL('https://discordapp.com/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot')
-.setDescription(`        ***__اوامر اغاني__*** **\n${prefix}**play / لتشغيل أغنية برآبط أو بأسم』**\n${prefix}**skip / لتجآوز الأغنية الحآلية』**\n${prefix}**pause / إيقآف الأغنية مؤقتا』**\n${prefix}**resume / لموآصلة الإغنية بعد إيقآفهآ مؤقتا』**\n${prefix}**vol / لتغيير درجة الصوت 100 - 0』**\n**-stop / لإخرآج البوت من الروم』**\n${prefix}**np / لمعرفة الأغنية المشغلة حآليا』**\n**-queue / لمعرفة قآئمة التشغيل』`)
+.setDescription(`        ***__Music Commands__*** **\n${prefix}**play / Play Music』**\n${prefix}**skip / Skip The Current Song』**\n${prefix}**pause / Pause The Song 』**\n${prefix}**resume / Continue The Song That You Paused Before』**\n${prefix}**vol / 10 - 100 To change The Volume 』**\n**-stop / Kick The Bot From The Voice Channel』**\n${prefix}**np / Show The Name Of The Current Song』**\n**-queue / Show The Playlist』`)
  
  
  .setTimestamp()
