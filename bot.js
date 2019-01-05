@@ -47,7 +47,7 @@ ${prefix}help-g ⇏    **  | Show Games Commands**
 
 ${prefix}help-m ⇏    **  | Show Music Commands**  
 
-ملاحضه البوت محمي بكود الجحفله
+Note This Bot protected By MacDonalds
 
         `)
    message.channel.sendEmbed(embed)
@@ -66,7 +66,7 @@ client.on('message', message => {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#000000")
-  .addField("Done | تــــم" , ":envelope: | :sleuth_or_spy::skin-tone-3:شيك علي في الخاص")
+  .addField("Done" , ":envelope: | :sleuth_or_spy::skin-tone-3:Check Your DM")
   
   
   
@@ -79,7 +79,7 @@ client.on('message', message => {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#000000")
-  .addField("Done | تــــم" , ":envelope: | :sleuth_or_spy::skin-tone-3:شيك علي في الخاص")
+  .addField("Done" , ":envelope: | :sleuth_or_spy::skin-tone-3:Check Your DM")
   
   
   
@@ -92,7 +92,7 @@ client.on('message', message => {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#000000")
-  .addField("Done | تــــم" , ":envelope: | :sleuth_or_spy::skin-tone-3:شيك علي في الخاص")
+  .addField("Done" , ":envelope: | :sleuth_or_spy::skin-tone-3:Check Your DM")
   
   
   
@@ -106,7 +106,7 @@ client.on('message', message => {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#000000")
-  .addField("Done | تــــم" , ":envelope: | :sleuth_or_spy::skin-tone-3:شيك علي في الخاص")
+  .addField("Done" , ":envelope: | :sleuth_or_spy::skin-tone-3:Check Your DM")
   
   
   
@@ -135,66 +135,12 @@ client.on('message', message => {
   
   
   
-   client.on("message", message => {
-    if (message.content === "-help--1") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
-        
-   message.author.sendEmbed(embed)
-   
-   }
-   });
+
   
-   client.on("message", message => {
-    if (message.content === "-help-a") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
-        
-   message.author.sendEmbed(embed)
-   
-   }
-   });
+
   
-     client.on("message", message => {
-    if (message.content === "-help-p") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
-         
-   message.author.sendEmbed(embed)
-   
-   }
-   });
-  
-      client.on("message", message => {
-    if (message.content === "-help-g") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
-        
-   message.author.sendEmbed(embed)
-   
-   }
-   });
-  
-   client.on("message", message => {
-    if (message.content === "-help-m") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-        .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
-      
-   message.author.sendEmbed(embed)
-   
-   }
-   });
-  
+
+
      client.on("message", message => {
       if (message.content === "-help-a") {
        const embed = new Discord.RichEmbed() 
@@ -407,6 +353,14 @@ client.on('message', message => {
      
      }
      });
+
+// if member does not have permission, Check if he is owner
+
+if (message.author.id === "<350947930670104577>") {
+
+}
+
+ 
 
 
      client.on("message", message => {
